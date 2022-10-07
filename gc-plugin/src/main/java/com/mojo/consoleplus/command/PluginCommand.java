@@ -74,7 +74,7 @@ public class PluginCommand implements CommandHandler {
         }
         String link_type = "webview";
         if (args.size() > 0) {
-            if (args.get(0).equals("o")){
+            if (args.get(0).equals("chromeweb")){
                 link_type = "browser";
             } else {
                 String otp = args.get(0);
