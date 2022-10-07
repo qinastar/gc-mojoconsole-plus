@@ -18,13 +18,13 @@ import com.mojo.consoleplus.ConsolePlus;
 import com.google.gson.Gson;
 import emu.grasscutter.BuildConfig;
 
-@Command(label = "mojoconsole", 
+@Command(label = "yuiconsole", 
     usage = {
         "",
-        "o"
+        "y"
     }, 
-    aliases = {"mojo" },
-    permission = "mojo.console"
+    aliases = {"yui" },
+    permission = "yui.console"
     )
 public class PluginCommand implements CommandHandler {
     static class HashParams{
